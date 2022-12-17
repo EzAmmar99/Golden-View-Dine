@@ -1,0 +1,66 @@
+.navBtn {
+  width: 263px;
+  height: 76px;
+  background: #a08040;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.none {
+  border: 2px solid #fffccc;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  width: 215px;
+  height: 55px;
+  background-color: unset;
+  cursor: pointer;
+}
+
+.discountBtn {
+  width: 173px;
+  height: 55px;
+  border: 2px solid #fffccc;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117.3%;
+  text-align: center;
+  color: #ffffff;
+  background-color: unset;
+  cursor: pointer;
+}
+
+.blogsBtn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.13em;
+  text-transform: capitalize;
+  color: #fffffc;
+  padding: 4px;
+  position: relative;
+  cursor: pointer;
+  margin-top: 20px;
+  border-bottom: 1px #a08040 solid;
+}
+
+.footerBtn {
+  border: 2px solid #fffccc;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  width: 215px;
+  height: 55px;
+  background-color: unset;
+  cursor: pointer;
+}

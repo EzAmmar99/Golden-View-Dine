@@ -1,0 +1,49 @@
+.blogs {
+  padding: 40px;
+  background-image: url("../../assets/menu-bg.png");
+}
+
+.grid-with-three-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  margin: 70px auto;
+  gap: 70px;
+}
+
+.blogs-card {
+  display: flex;
+  flex-direction: column;
+  background: rgba(16, 20, 24, 0.7);
+}
+
+.blogs-card img {
+  height: 300px;
+  width: 100%;
+}
+
+.card-content {
+  padding: 40px;
+}
+
+.card-content > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155.3%;
+  text-transform: capitalize;
+  color: #fffffc;
+  margin-bottom: 25px;
+}
+
+.card-content > h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 117.3%;
+  text-transform: capitalize;
+  color: #fffffc;
+  margin-bottom: 17px;
+}

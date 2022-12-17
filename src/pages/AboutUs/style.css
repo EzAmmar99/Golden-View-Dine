@@ -1,0 +1,67 @@
+.section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #fffffc;
+  padding: 10%;
+  background-color: black;
+}
+
+.content {
+  flex: 50%;
+}
+
+.content h2 {
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 117.3%;
+  text-align: start;
+  letter-spacing: 0.1em;
+  color: #ffce6d;
+}
+
+.content h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 117.3%;
+  text-transform: capitalize;
+}
+
+.content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 155.3%;
+  letter-spacing: 0.13em;
+  text-transform: capitalize;
+}
+
+button {
+  border: 2px solid #fffccc;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117.3%;
+  text-align: center;
+  width: 177px;
+  height: 44px;
+  color: #ffffff;
+  background-color: unset;
+}
+
+.image {
+  flex: 40%;
+}
+
+.image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}

@@ -1,0 +1,32 @@
+.statistics {
+  display: flex;
+  flex-direction: row;
+  background: unset;
+  /* background-image: url("../../assets/menu-bg.png"); */
+}
+
+.statistics-num {
+  margin: 0 20px;
+}
+
+.statistics-num > h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 117.3%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffce6d !important;
+}
+
+.statistics-num > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 117.3%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fffffc;
+}

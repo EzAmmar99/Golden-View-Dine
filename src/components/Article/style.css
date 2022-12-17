@@ -1,0 +1,51 @@
+.article-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  color: #fffffc;
+  padding: 10%;
+  background-image: url("../../assets/menu-bg.png");
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 50%;
+  margin-right: 5%;
+}
+
+.content > h2 {
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 117.3%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffce6d;
+}
+
+.content > h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 117.3%;
+  text-transform: capitalize;
+  color: #fffffc;
+  margin-bottom: 7%;
+}
+
+.content > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 155.3%;
+  letter-spacing: 0.13em;
+  text-transform: capitalize;
+  color: #fffffc;
+  margin-bottom: 7%;
+}

@@ -1,0 +1,35 @@
+.special {
+  padding-top: 3%;
+  text-align: center;
+  background: rgba(16, 20, 24, 0.7);
+  margin-bottom: 0% !important;
+}
+.special > h2 {
+  margin-bottom: 1%;
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 117.3%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffce6d;
+}
+
+.special > h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 117.3%;
+  text-transform: capitalize;
+  color: #fffffc;
+}
+
+.card-style {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 4% 0px 0px 0px;
+}

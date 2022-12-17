@@ -1,0 +1,52 @@
+ul.topnav {
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+  width: 988px;
+  background-color: #101418;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  right: 5%;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffcc;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+.nav-logo {
+  width: 50px;
+  height: 50px;
+}

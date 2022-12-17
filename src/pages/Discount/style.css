@@ -1,0 +1,38 @@
+.discount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* margin-top: 5%; */
+  background-color: #101418;
+}
+
+.discount-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discount-content-title {
+  margin-top: 20%;
+  margin-bottom: 6%;
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #fffffc;
+}
+
+.discount-content-sale {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffce6d;
+  margin-bottom: 6%;
+}
